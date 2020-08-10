@@ -10,6 +10,8 @@
   //border: 1px solid red;
   box-sizing: border-box;
   flex-wrap: wrap;
+  padding-top: 10px;
+  padding-bottom: 10px;
   @media (max-width:1000px) {
     //height: calc(100vh - 170px);
   }
