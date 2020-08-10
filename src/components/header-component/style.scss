@@ -7,10 +7,29 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-around;
   &-logo {
 
     &-img {
       width: 120px;
     }
+  }
+  &-element {
+    margin: 5px 15px;
+  }
+  @media (max-width:1000px) {
+    flex-direction: column;
+    height: 170px;
+    justify-content: center;
+  }
+  @media (max-width:500px) {
+    height: 250px;
+  }
+}
+.center-content-container {
+  display: flex;
+  flex-direction: row;
+  @media (max-width:500px) {
+    flex-direction: column;
   }
 }

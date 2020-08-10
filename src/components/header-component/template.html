@@ -1,14 +1,16 @@
 <div class="header-component">
-    <div class="header-component-logo">
+    <div class="header-component-element header-component-logo">
         <img class="header-component-logo-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Star_Wars_Logo_2.svg/1024px-Star_Wars_Logo_2.svg.png" alt="star wars logo">
     </div>
-    <div v-on:click="goTo('home-page')" class="header-component-page-one">
-        <h1>главная</h1>
+    <div class="center-content-container">
+        <div v-on:click="goTo('home-page')" class="header-component-element header-component-page-one">
+            <h1>главная</h1>
+        </div>
+        <div v-on:click="goTo('favorite-heroes')" class="header-component-element header-component-page-two">
+            <h1>любимые герои</h1>
+        </div>
     </div>
-    <div v-on:click="goTo('favorite-heroes')" class="header-component-page-two">
-        <h1>любимые герои</h1>
-    </div>
-    <div>
+    <div class="header-component-element header-component-input">
         <input type="text">
     </div>
 </div>

@@ -4,4 +4,10 @@
   max-width: 2000px;
   border: 1px solid red;
   box-sizing: border-box;
+  @media (max-width:1000px) {
+    height: calc(100vh - 170px);
+  }
+  @media (max-width:500px) {
+    height: calc(100vh - 250px);
+  }
 }
