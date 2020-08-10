@@ -1,7 +1,12 @@
+import characterCardComponent from '../../components/character-card-component/character-card-component'
+
 export default {
     name: 'main-content-component',
     props: {
-        msg: String
+
+    },
+    components: {
+        characterCardComponent,
     },
     data: function () {
         return {
