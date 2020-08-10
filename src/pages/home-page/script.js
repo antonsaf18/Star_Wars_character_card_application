@@ -12,8 +12,10 @@ export default {
     },
 
     methods: {
-        inputting(event) {
-            this.$emit('typing', event.target.value)
+        goTo(whereTo) {
+            this.$router.push({name:whereTo})
+            // this.$store.commit('setMessageForm', '');
+            // window.scrollTo(0,0)
         }
     }
 }

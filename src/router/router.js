@@ -2,8 +2,8 @@ import Vue from "vue";
 import Router from "vue-router";
 
 
-import loginPage from '../pages/login-page/login-page'
-import AnalyticsPage from '../pages/analytics-page/analytics-page';
+import homePage from '../pages/home-page/home-page'
+import favoriteHeroes from '../pages/favorite-heroes/favorite-heroes';
 
 Vue.use(Router);
 
@@ -13,13 +13,13 @@ export default new Router({
     routes: [
         {
             path: "/",
-            name: "login-page",
-            component: loginPage,
+            name: "home-page",
+            component: homePage,
         },
         {
-            path: "/analytics-page",
-            name: "analytics-page",
-            component: AnalyticsPage,
+            path: "/favorite-heroes",
+            name: "favorite-heroes",
+            component: favoriteHeroes,
         },
     ]
 })
