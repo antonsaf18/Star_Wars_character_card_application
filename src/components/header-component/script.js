@@ -12,8 +12,8 @@ export default {
     },
 
     methods: {
-        inputting(event) {
-            this.$emit('typing', event.target.value)
+        goTo(whereTo) {
+            this.$router.push({name:whereTo})
         }
     }
 }
