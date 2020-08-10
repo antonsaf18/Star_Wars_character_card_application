@@ -32,4 +32,7 @@
   @media (max-width:500px) {
     flex-direction: column;
   }
+  &-elem {
+    cursor: pointer;
+  }
 }
