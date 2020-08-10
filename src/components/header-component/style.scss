@@ -4,4 +4,13 @@
   max-width: 2000px;
   border: 1px solid red;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  &-logo {
+
+    &-img {
+      width: 120px;
+    }
+  }
 }

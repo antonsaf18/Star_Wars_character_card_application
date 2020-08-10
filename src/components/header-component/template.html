@@ -1,4 +1,14 @@
 <div class="header-component">
-    <h3 >header-component</h3>
-    <h1 v-on:click="goTo('favorite-heroes')">button</h1>
+    <div class="header-component-logo">
+        <img class="header-component-logo-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Star_Wars_Logo_2.svg/1024px-Star_Wars_Logo_2.svg.png" alt="star wars logo">
+    </div>
+    <div v-on:click="goTo('home-page')" class="header-component-page-one">
+        <h1>главная</h1>
+    </div>
+    <div v-on:click="goTo('favorite-heroes')" class="header-component-page-two">
+        <h1>любимые герои</h1>
+    </div>
+    <div>
+        <input type="text">
+    </div>
 </div>
